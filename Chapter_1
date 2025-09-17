@@ -1,12 +1,8 @@
-import java.util.Scanner;
+import javax.swing.*;
 
-public class FavoriteSong {
-public static void main(String[] args) {
-
-System.out.println("Be yourself and know that that's good enough");
-System.out.println("Don't try to be someone else");
-System.out.println("Don't try to be like someone else");
-System.out.println("Don't try to act like someone else, be yourself.");
-
- }
+public class FirstDialog {
+    public static void main(String[] args) {
+       
+        JOptionPane.showMessageDialog(null, "First Java dialog", "Message", JOptionPane.INFORMATION_MESSAGE);
+    }
 }

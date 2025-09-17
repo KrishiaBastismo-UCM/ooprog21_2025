@@ -1,8 +1,13 @@
-import javax.swing.*;
+import java.util.Scanner;
 
-public class FirstDialog {
+public class Comments {
+
     public static void main(String[] args) {
+
+        // This is a single-line comment
        
-        JOptionPane.showMessageDialog(null, "First Java dialog", "Message", JOptionPane.INFORMATION_MESSAGE);
+        /* This is a multi-line comment. */
+
+        /** This is a Javadoc comment. **/
     }
 }
